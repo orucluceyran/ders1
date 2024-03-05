@@ -1,22 +1,23 @@
 body {
-    background-color: #B2A59B;
+    background-color: #6e6056;
 }
 
-.page {
+div {
     border: 3px solid rgba(83, 69, 57, 0.641);
     box-shadow:
         5px 5px 10px rgba(90, 53, 53, 0.467),
         -5px -5px 10px rgba(90, 53, 53, 0.467),
         -5px 5px 10px rgba(90, 53, 53, 0.467),
         5px -5px 10px rgba(90, 53, 53, 0.467);
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
+    width: 600px;
     text-align: justify;
 }
 
@@ -24,13 +25,13 @@ body {
     border: dashed rgb(105, 103, 103);
     display: block;
     margin: 0 auto;
-    box-shadow: 
-    5px 5px 10px rgba(90, 53, 53, 0.467),
+    box-shadow:
+        5px 5px 10px rgba(90, 53, 53, 0.467),
         -5px -5px 10px rgba(90, 53, 53, 0.467),
         -5px 5px 10px rgba(90, 53, 53, 0.467),
         5px -5px 10px rgba(90, 53, 53, 0.467);
-    width: 250px;
-    height: 280px;
+    width: 220px;
+    height: 250px;
 
 }
 
@@ -58,28 +59,28 @@ p {
     text-decoration: none;
     color: #dfdbda;
     font-size: 25px;
-    text-shadow: 6px 3px 11px rgba(0,0,0,0.69);
-    
-    
-  }
+    text-shadow: 6px 3px 11px rgba(0, 0, 0, 0.69);
 
-  .image2{
+
+}
+
+.image1 {
     border: dashed rgb(105, 103, 103);
     display: block;
     margin: 0 auto;
-    box-shadow: 
-    5px 5px 10px rgba(90, 53, 53, 0.467),
+    box-shadow:
+        5px 5px 10px rgba(90, 53, 53, 0.467),
         -5px -5px 10px rgba(90, 53, 53, 0.467),
         -5px 5px 10px rgba(90, 53, 53, 0.467),
         5px -5px 10px rgba(90, 53, 53, 0.467);
     margin-top: 60px;
     width: 550px;
     height: 340px;
-   
 
-  }
 
-  a{
+}
+
+a {
     font-family: "Neuton", serif;
     font-weight: 100;
     font-style: normal;
@@ -87,5 +88,4 @@ p {
     color: #dfdbda;
     font-size: 20px;
     text-shadow: 6px 3px 11px rgba(150, 71, 71, 0.871);
-  }
- 
+}
